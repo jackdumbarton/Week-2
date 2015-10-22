@@ -1,0 +1,5 @@
+Enter file contents here
+scoreA = int(input("What was score A?:"))#adding 'int' allows the user to enter an intger instead of a string
+scoreB = int(input("What was score B?:"))
+if (scoreA == scoreB): #by stating scoreA and scoreB without speech marks, the string 'tie' will be returned
+    print("tie")
